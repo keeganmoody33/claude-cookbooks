@@ -4,7 +4,7 @@ A complete multi-agent system for executing the Gutenberg Framework - a data-dri
 
 ## Overview
 
-This agent system automates and optimizes the complete outbound GTM workflow from prospect sourcing to scaled campaigns, using 7 specialized AI agents working in coordination.
+This agent system automates and optimizes the complete outbound GTM workflow from prospect sourcing to scaled campaigns, using **8 specialized AI agents** working in coordination.
 
 ### The Gutenberg Framework
 
@@ -21,7 +21,27 @@ This agent system automates and optimizes the complete outbound GTM workflow fro
 - $75K-150K revenue
 - 5,000-10,000% ROI
 
-## The 7 Specialized Agents
+### Strategic Focus
+
+**Sales Focus**: Mixmax is a **sales execution platform**. We focus exclusively on:
+- Sales Development (SDR, BDR)
+- Account Executives
+- Revenue Leadership (CRO, VP Sales, VP Revenue)
+- Revenue Operations
+- NOT general GTM, NOT marketing automation
+
+**Market Intelligence**: We monitor the **JOB MARKET** for buying signals:
+- Target roles: CRO, VP/Director Sales, VP/Director Rev Ops, VP/Director SDR, SDR Manager
+- When companies post these roles → they're in a buying cycle for sales tools
+- NOT monitoring competitor employees for job changes
+
+**Competitive Intelligence**: We extract **CONTACTS** from competitor engagement:
+- Primary targets: **Outreach, SalesLoft, Groove** (main threats - we're taking them out)
+- Awareness only: HubSpot, Lemlist (track but don't prioritize)
+- Sources: LinkedIn/Twitter engagements (90 days), G2/Capterra/TrustRadius reviews
+- Goal: Find dissatisfied users, extract contacts for displacement campaigns
+
+## The 8 Specialized Agents
 
 ### 1. **List Builder Specialist** (.claude/agents/list-builder.md)
 **Domain**: STEP 1 - Intent-Based List Building
@@ -138,36 +158,91 @@ This agent system automates and optimizes the complete outbound GTM workflow fro
 
 ---
 
-### 7. **Competitive Intelligence Specialist** (.claude/agents/competitive-intelligence.md)
-**Domain**: Cross-cutting - Market Intelligence & Competitive Monitoring
+### 7. **Market Intelligence Specialist** (.claude/agents/market-intelligence.md)
+**Domain**: Cross-cutting - Buying Signal Detection & Market Monitoring
 
 **Responsibilities**:
-- Monitor 60+ competitors across social media, job postings, and product changes
-- Maintain competitive battlecards and positioning intelligence
-- Track market trends and competitor momentum
-- Win/loss analysis and strategic insights
-- Real-time alerts for critical competitive signals
+- Monitor job market for decision-maker hiring signals (VP Sales, CRO, Director Sales, Rev Ops, SDR Manager)
+- Identify companies entering buying cycles based on hiring patterns
+- Track thought leaders in revenue roles (NOT general GTM)
+- Enrich hiring signals with company intelligence
+- Deliver high-intent buying signal leads to List Builder
 
 **Key Metrics**:
-- Signal capture rate: Daily monitoring of critical competitors
-- Battlecard freshness: 100% of high-priority cards updated monthly
-- Win/loss attribution: Competitive context on deals
-- Alert response time: <24 hours for high-priority signals
+- Daily buying signals captured: 10-30 high-intent companies
+- Signal-to-pipeline conversion rate: >15%
+- Average signal score: >7/10
+- Time from signal detection to handoff: <24 hours for score ≥8
 
-**Tools**: Web scraping, social media monitoring, G2/review analysis, job board trackers
+**Tools**: LinkedIn Jobs, company career pages, job board APIs, enrichment services
+
+**Why This Matters**:
+- Job postings = buying signals (new VP Sales = likely evaluating sales tools)
+- 2-3X higher reply rates vs. generic prospecting
+- Timing advantage (reach them during evaluation window)
+
+---
+
+### 8. **Competitive Intelligence Specialist** (.claude/agents/competitive-intelligence.md)
+**Domain**: Cross-cutting - Competitive Contact Extraction
+
+**Responsibilities**:
+- Scrape LinkedIn/Twitter engagements from Outreach, SalesLoft, Groove (last 90 days)
+- Extract contacts from G2/Capterra/TrustRadius reviews (especially 1-3 star reviews)
+- Enrich and verify competitive contacts for displacement campaigns
+- Analyze pain points from reviews for messaging insights
+- Deliver tiered contact lists to List Builder and pain point intelligence to Offer Strategist
+
+**Primary Targets**:
+- **Outreach** (CRITICAL - direct platform competitor, complexity/cost complaints)
+- **SalesLoft** (CRITICAL - enterprise competitor, cost complaints)
+- **Groove** (CRITICAL - in-inbox competitor, feature limitation complaints)
+
+**Awareness Only** (Low priority):
+- HubSpot Sales Hub (CRM suite, not overly concerned)
+- Lemlist (different positioning)
+
+**Key Metrics**:
+- Weekly contact extraction: 500-1,000 contacts
+- Email verification rate: >80%
+- Tier 1 (high-intent dissatisfied users): >15% of total
+- Reply rate differential: 2-3X vs. generic prospecting
+
+**Tools**: LinkedIn/Twitter scraping, G2 API, review scrapers, enrichment APIs, email verification
+
+**Why This Matters**:
+- People engaging with competitors = high-intent, category-aware prospects
+- Dissatisfied users (low reviews) = displacement opportunities
+- Pain point extraction = messaging goldmine for Offer Strategist
+- Competitive context = higher relevance in outreach
 
 ---
 
 ## How the System Works
 
+### Intelligence Layer (Continuous)
+
+```
+[Market Intelligence]                    [Competitive Intelligence]
+  ↓ Monitors job postings                  ↓ Scrapes LinkedIn/Twitter/G2
+  ↓ Detects buying signals                 ↓ Extracts competitor engagers
+  ↓ CRO/VP Sales/Rev Ops hires             ↓ Reviews (1-3 stars)
+  ↓                                         ↓
+  ↓ High-intent leads ──────────────────→ [List Builder] ←─── Competitive contacts
+  ↓                                                           ↓ Pain points
+  ↓ Thought leader insights ──────────────────────────→ [Offer Strategist]
+```
+
 ### Phase 1: Preparation (Week 0-1)
 
 ```
-[List Builder] → Sources 100K+ contacts → [Data Quality] → Verifies/Cleans
+[List Builder] → Sources 100K+ contacts (includes buying signals + competitive contacts)
+                                                ↓
+                                    [Data Quality] → Verifies/Cleans
                                                 ↓
                                         40K-50K verified contacts
                                                 ↓
-[Offer Strategist] → Creates 15-20 combinations
+[Offer Strategist] → Creates 15-20 combinations (informed by pain point intelligence)
                                                 ↓
                         [Campaign Orchestrator receives all assets]
 ```
@@ -232,7 +307,8 @@ mixmax_gtm_agent/
 │   │   ├── campaign-orchestrator.md # Agent 4: Testing & winner ID
 │   │   ├── deliverability-engineer.md # Agent 5: Infrastructure & reputation
 │   │   ├── analytics-optimizer.md # Agent 6: Scaling & optimization
-│   │   └── competitive-intelligence.md # Agent 7: Competitive monitoring & market intelligence
+│   │   ├── market-intelligence.md # Agent 7: Buying signal detection (job postings)
+│   │   └── competitive-intelligence.md # Agent 8: Contact extraction (competitor engagers)
 │   │
 │   └── commands/                  # (Optional) Slash commands for common tasks
 │

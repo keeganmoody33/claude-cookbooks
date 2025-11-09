@@ -98,5 +98,268 @@
       "Template-based standardization",
       "Team-wide visibility and tracking"
     ]
+  },
+  "target_decision_maker_roles": {
+    "tier_1_primary_decision_makers": [
+      {
+        "role": "Chief Revenue Officer (CRO)",
+        "buying_authority": "Final approver",
+        "typical_pain_points": [
+          "Revenue predictability",
+          "Sales efficiency metrics",
+          "Tech stack ROI",
+          "Team scaling challenges"
+        ],
+        "buying_signal_strength": "CRITICAL",
+        "timeline_to_purchase": "0-3 months"
+      },
+      {
+        "role": "VP of Sales",
+        "buying_authority": "Final approver or primary champion",
+        "typical_pain_points": [
+          "Team productivity",
+          "Pipeline visibility",
+          "Quota attainment",
+          "Rep ramp time"
+        ],
+        "buying_signal_strength": "CRITICAL",
+        "timeline_to_purchase": "0-3 months"
+      },
+      {
+        "role": "VP of Revenue",
+        "buying_authority": "Final approver",
+        "typical_pain_points": [
+          "Revenue operations efficiency",
+          "Cross-team coordination",
+          "Tech stack optimization",
+          "Scalability"
+        ],
+        "buying_signal_strength": "CRITICAL",
+        "timeline_to_purchase": "0-3 months"
+      },
+      {
+        "role": "Head of Sales",
+        "buying_authority": "Primary champion, budget owner",
+        "typical_pain_points": [
+          "Process standardization",
+          "Team visibility",
+          "Tool adoption",
+          "Manual workflow overhead"
+        ],
+        "buying_signal_strength": "HIGH",
+        "timeline_to_purchase": "1-4 months"
+      },
+      {
+        "role": "Director of Sales",
+        "buying_authority": "Champion/influencer",
+        "typical_pain_points": [
+          "Daily execution efficiency",
+          "Team coaching visibility",
+          "Coordination overhead",
+          "Reporting burden"
+        ],
+        "buying_signal_strength": "HIGH",
+        "timeline_to_purchase": "1-4 months"
+      }
+    ],
+    "tier_2_influencers_implementers": [
+      {
+        "role": "VP of Revenue Operations / VP of Rev Ops",
+        "buying_authority": "Primary evaluator and implementer",
+        "typical_pain_points": [
+          "Tech stack complexity",
+          "Data quality and integration",
+          "Tool adoption rates",
+          "Workflow efficiency"
+        ],
+        "buying_signal_strength": "CRITICAL",
+        "timeline_to_purchase": "0-2 months",
+        "notes": "Often drives evaluation process, strong technical influence"
+      },
+      {
+        "role": "Director of Revenue Operations / Director of Rev Ops",
+        "buying_authority": "Technical evaluator, strong influence",
+        "typical_pain_points": [
+          "Integration challenges",
+          "Data hygiene",
+          "Process optimization",
+          "Tool sprawl"
+        ],
+        "buying_signal_strength": "HIGH",
+        "timeline_to_purchase": "1-3 months"
+      },
+      {
+        "role": "Head of Sales Operations",
+        "buying_authority": "Implementation owner",
+        "typical_pain_points": [
+          "Manual data entry",
+          "Reporting complexity",
+          "CRM adoption",
+          "Process gaps"
+        ],
+        "buying_signal_strength": "MEDIUM-HIGH",
+        "timeline_to_purchase": "2-4 months"
+      },
+      {
+        "role": "Director of Sales Operations",
+        "buying_authority": "Implementation owner",
+        "typical_pain_points": [
+          "System integration",
+          "User adoption",
+          "Training overhead",
+          "Technical debt"
+        ],
+        "buying_signal_strength": "MEDIUM-HIGH",
+        "timeline_to_purchase": "2-4 months"
+      }
+    ],
+    "tier_3_execution_leaders": [
+      {
+        "role": "VP of Sales Development / VP of SDR",
+        "buying_authority": "Champion, budget influence for SDR tools",
+        "typical_pain_points": [
+          "SDR productivity",
+          "Outbound efficiency",
+          "Email deliverability",
+          "Activity tracking"
+        ],
+        "buying_signal_strength": "HIGH",
+        "timeline_to_purchase": "1-3 months"
+      },
+      {
+        "role": "Director of Sales Development / Director of SDR",
+        "buying_authority": "End user champion",
+        "typical_pain_points": [
+          "Outreach volume goals",
+          "Quality of conversations",
+          "Tool complexity",
+          "Rep onboarding"
+        ],
+        "buying_signal_strength": "MEDIUM-HIGH",
+        "timeline_to_purchase": "2-4 months"
+      },
+      {
+        "role": "Head of SDR",
+        "buying_authority": "End user, influencer",
+        "typical_pain_points": [
+          "Daily workflow friction",
+          "Template management",
+          "Sequence optimization",
+          "Team visibility"
+        ],
+        "buying_signal_strength": "MEDIUM",
+        "timeline_to_purchase": "2-4 months"
+      },
+      {
+        "role": "SDR Manager",
+        "buying_authority": "End user, limited budget influence",
+        "typical_pain_points": [
+          "Rep efficiency",
+          "Coaching visibility",
+          "Activity metrics",
+          "Tool usability"
+        ],
+        "buying_signal_strength": "MEDIUM",
+        "timeline_to_purchase": "2-6 months",
+        "notes": "Strong signal only at companies 100+ employees"
+      }
+    ]
+  },
+  "buying_signal_framework": {
+    "job_posting_signals": {
+      "description": "When companies post roles for decision-makers, they're likely in a buying cycle",
+      "high_intent_signals": [
+        "First VP Sales hire (likely building sales stack from scratch)",
+        "New CRO within 90 days (stack reevaluation window)",
+        "VP/Dir Rev Ops + sales leadership hire together (tool evaluation in progress)",
+        "5+ sales roles open simultaneously (major scaling = budget unlocked)",
+        "Job description mentions 'sales stack' or 'sales tools' explicitly"
+      ],
+      "moderate_intent_signals": [
+        "Director Sales backfill at growth-stage company",
+        "SDR expansion (3+ roles) at established company",
+        "Rev Ops hire at Series B/C funded company"
+      ],
+      "geographic_priority": [
+        "San Francisco Bay Area",
+        "New York City",
+        "Boston",
+        "Austin",
+        "Seattle",
+        "Remote/Distributed",
+        "Toronto",
+        "Vancouver",
+        "London"
+      ],
+      "industry_priority": [
+        "B2B SaaS (highest fit)",
+        "Technology Services",
+        "Fintech",
+        "Cybersecurity",
+        "Data/Analytics platforms",
+        "Infrastructure/DevOps"
+      ]
+    },
+    "competitive_engagement_signals": {
+      "description": "People who engage with competitors are high-intent prospects",
+      "primary_competitors_to_monitor": [
+        "Outreach (CRITICAL - direct platform competitor)",
+        "SalesLoft (CRITICAL - enterprise competitor)",
+        "Groove (CRITICAL - in-inbox competitor)"
+      ],
+      "awareness_only_competitors": [
+        "HubSpot Sales Hub (LOW priority - CRM suite, not overly concerned)",
+        "Lemlist (LOW priority - different positioning)"
+      ],
+      "engagement_types": [
+        "G2/Capterra/TrustRadius reviews (especially 1-3 stars = dissatisfied users)",
+        "LinkedIn comments on competitor posts (questions = evaluation mode)",
+        "Twitter/X replies to competitors (pain points = switching opportunity)",
+        "Multiple engagements across platforms (active evaluation)"
+      ],
+      "displacement_opportunities": [
+        "Outreach users complaining about complexity",
+        "SalesLoft users complaining about cost",
+        "Groove users complaining about feature limitations",
+        "Any competitor users with deliverability complaints"
+      ]
+    },
+    "thought_leader_monitoring": {
+      "description": "Track specific revenue role thought leaders (NOT general GTM)",
+      "target_profiles": [
+        "Chief Revenue Officers",
+        "VPs of Sales (B2B SaaS specifically)",
+        "VPs of Revenue",
+        "VPs/Directors of Revenue Operations",
+        "VPs/Directors of Sales Development",
+        "SDR Managers at notable companies"
+      ],
+      "what_to_monitor": [
+        "Posts about sales process, outbound strategy, tech stack",
+        "Job change announcements (new role = buying cycle activation)",
+        "Pain points shared about current tools",
+        "Questions about tool evaluations"
+      ],
+      "messaging_insight_extraction": [
+        "Common pain points mentioned",
+        "Trending topics in SDR/revenue circles",
+        "Language and terminology used",
+        "Peer recommendations and anti-recommendations"
+      ]
+    }
+  },
+  "market_focus": {
+    "core_message": "We focus on SALES because Mixmax is a sales execution platform",
+    "primary_use_case": "Sales teams (SDR, AE, CRO, Rev Ops) executing outbound at scale",
+    "not_focused_on": [
+      "General GTM (too broad)",
+      "Marketing automation",
+      "Customer success (unless sales-adjacent)"
+    ],
+    "competitive_strategy": {
+      "main_goal": "Take out Outreach, SalesLoft, and Groove",
+      "approach": "Monitor their weaknesses, extract dissatisfied users, position Mixmax as simpler/faster/more affordable alternative",
+      "not_goal": "Overly concerned with HubSpot or Lemlist (awareness only)"
+    }
   }
 }
