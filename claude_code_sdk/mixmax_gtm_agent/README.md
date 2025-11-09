@@ -407,6 +407,27 @@ Each agent has **full autonomy** within their domain:
 
 ## Getting Started
 
+### Pre-Launch System Review ⚠️ **START HERE**
+
+Before deploying agents, run a comprehensive architecture review:
+
+```bash
+/review-system
+```
+
+**This command will:**
+1. ✅ Analyze all 8 agents and coordination logic
+2. 🔍 Identify gaps, risks, and weaknesses
+3. 💬 Ask iterative questions to strengthen the system
+4. ✔️ Validate production readiness
+5. 🚀 Launch agents with your approval
+
+**Expected time**: 40-65 minutes for thorough review + Q&A
+
+See `REVIEW_GUIDE.md` for detailed walkthrough.
+
+---
+
 ### 1. Environment Setup
 ```bash
 # Install dependencies
