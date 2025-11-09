@@ -201,6 +201,7 @@ Feedback to [List Builder]
 mixmax_gtm_agent/
 ├── CLAUDE.md                      # Main context file (company, framework, metrics)
 ├── AGENT_INTERACTION_FLOW.md      # Detailed handoff protocols
+├── CASE_STUDY_INTELLIGENCE.md     # 43 customer case studies + ICP intelligence
 ├── README.md                      # This file
 │
 ├── .claude/
@@ -223,9 +224,15 @@ mixmax_gtm_agent/
 │   ├── track_performance.py       # Metrics tracking
 │   ├── warmup_scheduler.py        # Domain warmup automation
 │   ├── segment_performance.py     # Segment analysis
-│   └── winner_profile.py          # Winner characteristic analysis
+│   ├── winner_profile.py          # Winner characteristic analysis
+│   ├── analyze_customer_icp.py    # Analyze customer CSV for ICP patterns
+│   └── process_case_studies.py    # Generate ICP + messaging intelligence
 │
 └── data/                          # Data storage (gitignored)
+    ├── customers_raw.csv          # Raw customer data
+    ├── case_studies.json          # 43 Mixmax customer case studies
+    ├── icp_intelligence.json      # ICP patterns and sweet spots
+    ├── messaging_intelligence.json # Value props and pain points by segment
     ├── raw_contacts.csv
     ├── verified_contacts.csv
     ├── test_results.csv
@@ -380,6 +387,52 @@ GTM Orchestrator: "Execute Phase 3: Scale winners"
 - Inbox placement: >90%
 - Sender score: >80
 - Send capacity: 1,000-3,000/day
+
+## Case Study Intelligence & ICP Data
+
+The system includes **43 analyzed Mixmax customer case studies** providing data-driven ICP intelligence and messaging insights.
+
+### Available Data
+- **`data/case_studies.json`**: 43 customer profiles with real problems, patterns, and success factors
+- **`data/icp_intelligence.json`**: Company size/industry sweet spots, buyer triggers, success factors
+- **`data/messaging_intelligence.json`**: Value prop themes, pain points by segment, proof points
+
+### Key Findings
+- **ICP Sweet Spots**:
+  - Growth SaaS (51-500 employees): 19 customers - highest concentration
+  - Enterprise (1000+): 10 customers - highest ARR potential
+  - Software/SaaS: 16 customers - primary vertical
+
+- **Primary Buyer Pain**: Coordination latency and visibility gaps in high-volume outreach
+
+- **Buying Triggers**:
+  - Team scaling without proportional headcount
+  - Manual processes causing delays
+  - Lack of visibility into outreach performance
+  - Inconsistent messaging across team
+
+- **Most Valued Features**:
+  - Templates (40+ mentions)
+  - Sequences (35+ mentions)
+  - CRM integration (30+ mentions)
+  - Tracking (30+ mentions)
+
+### How Agents Use This Data
+- **List Builder**: Lookalike targeting, intent signals, industry prioritization
+- **Offer Strategist**: Pain-based offers, customer story mining, value prop development
+- **Campaign Orchestrator**: Segment campaigns by ICP patterns, test hypotheses
+- **Analytics Optimizer**: Winner profiling, segment performance analysis, ICP refinement
+
+**Full documentation**: See `CASE_STUDY_INTELLIGENCE.md`
+
+### Generate Intelligence Reports
+```bash
+# Generate ICP and messaging intelligence
+python scripts/process_case_studies.py
+
+# Analyze customer ARR/industry/tech stack
+python scripts/analyze_customer_icp.py data/customers_raw.csv
+```
 
 ## Contributing
 

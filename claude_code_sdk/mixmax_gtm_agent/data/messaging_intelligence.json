@@ -1,0 +1,54 @@
+{
+  "value_prop_themes": {
+    "efficiency": [
+      "Reduce manual work",
+      "Automate repetitive tasks",
+      "Feel like extra headcount",
+      "Do more with same team"
+    ],
+    "speed": [
+      "Fast time-to-first-response",
+      "Quick implementation",
+      "Rapid testing and iteration",
+      "Eliminate delays"
+    ],
+    "visibility": [
+      "Team-wide transparency",
+      "Track every touchpoint",
+      "Data-driven optimization",
+      "Never miss a follow-up"
+    ],
+    "quality": [
+      "Consistent messaging",
+      "Brand-compliant communication",
+      "Professional templates",
+      "Higher reply rates"
+    ]
+  },
+  "pain_points_by_segment": {
+    "growth_stage_saas": [
+      "Lead leakage from slow follow-up",
+      "Inconsistent messaging hurting conversion",
+      "Cannot scale without hiring",
+      "No visibility into what works"
+    ],
+    "enterprise": [
+      "Coordination chaos across teams",
+      "Brand inconsistency",
+      "Delayed responses",
+      "Tracking gaps"
+    ],
+    "fintech_regulated": [
+      "Compliance requirements",
+      "Audit trails needed",
+      "Sensitive data handling",
+      "Approved messaging control"
+    ]
+  },
+  "proof_points": {
+    "implementation_speed": "Most customers live in <1 week",
+    "reply_rate_lift": "Above-industry reply rates consistently",
+    "efficiency_gain": "Feels like adding headcount without hiring",
+    "adoption": "Native Gmail/CRM experience = high adoption"
+  }
+}

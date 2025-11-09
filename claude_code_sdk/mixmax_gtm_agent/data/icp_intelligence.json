@@ -1,0 +1,102 @@
+{
+  "total_case_studies": 8,
+  "company_size_distribution": {
+    "11-50": 1,
+    "51-200": 3,
+    "201-500": 1,
+    "1001-5000": 3
+  },
+  "industry_distribution": {
+    "Data Infrastructure and Analytics": 1,
+    "Software Development": 5,
+    "Financial Services": 1,
+    "Technology": 1
+  },
+  "top_success_patterns": {
+    "High-volume outreach": 2,
+    "High compliance requirements (data privacy)": 1,
+    "Multi-segment audiences (Fortune 500, academia, startups)": 1,
+    "Template-driven standardization needed": 1,
+    "Small team requiring efficiency gains": 1,
+    "Growth-stage SaaS in competitive market": 1,
+    "Need to scale without adding headcount": 1,
+    "Automated sequences and visibility critical": 1,
+    "Fast time-to-first-response needed": 1,
+    "Fast implementation requirement (<1 week)": 1
+  },
+  "most_valued_features": {
+    "Templates": 7,
+    "CRM integration": 4,
+    "Sequences": 4,
+    "Tracking": 3,
+    "Gmail integration": 2,
+    "Automation": 2,
+    "Analytics": 2,
+    "Compliance workflows": 1,
+    "CRM tracking": 1,
+    "Salesforce integration": 1,
+    "Team sharing": 1,
+    "Coaching insights": 1,
+    "Team analytics": 1,
+    "Global collaboration": 1,
+    "Easy adoption": 1
+  },
+  "icp_sweet_spots": [
+    {
+      "segment": "Growth-stage SaaS (51-500 employees)",
+      "count": 3,
+      "common_problems": [
+        "Lead follow-up latency",
+        "Team coordination challenges",
+        "Need to scale without adding headcount"
+      ],
+      "value_props": [
+        "Fast implementation",
+        "Above-industry reply rates",
+        "Team-wide visibility",
+        "Reduced manual work"
+      ]
+    },
+    {
+      "segment": "Enterprise (1000+ employees)",
+      "count": 3,
+      "common_problems": [
+        "Multi-team coordination complexity",
+        "Maintaining speed at scale",
+        "Brand consistency across teams"
+      ],
+      "value_props": [
+        "Enterprise-grade tracking",
+        "Global team collaboration",
+        "Standardized messaging",
+        "Real-time visibility"
+      ]
+    }
+  ],
+  "universal_mechanisms": [
+    "Standardize and track high-volume, multi-segment outreach with compliance guardrails",
+    "Reduce coordination latency in asynchronous outreach with standardized templates",
+    "Standardize high-volume outreach with shared visibility and rapid onboarding",
+    "Automate coordination while maintaining coaching and accountability visibility",
+    "Coordinate large teams with standardized messaging and real-time visibility",
+    "Scale personalized outreach across global teams with brand consistency",
+    "Reduce coordination latency with lightweight, integrated tooling",
+    "Standardize outreach with trackable workflows for data-driven iteration"
+  ],
+  "key_insights": {
+    "primary_buyer_pain": "Coordination latency and visibility gaps in high-volume outreach",
+    "common_buying_triggers": [
+      "Team scaling without proportional headcount",
+      "Manual processes causing delays",
+      "Lack of visibility into outreach performance",
+      "Inconsistent messaging across team"
+    ],
+    "decision_making_style": "Pragmatic, speed-oriented, favor ease-of-use and fast time-to-value",
+    "critical_success_factors": [
+      "Gmail/CRM integration",
+      "Fast implementation (<1 week typical)",
+      "Template-based standardization",
+      "Team-wide visibility and tracking"
+    ]
+  }
+}
