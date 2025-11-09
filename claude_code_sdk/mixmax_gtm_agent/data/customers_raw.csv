@@ -1,0 +1,10 @@
+"Account Owner","Account Name","Company Domain Text","DWH DS Customer ARR","DWH SS Customer ARR","Enterprise Purchased Seats","SMB Purchased Seats","All Used Seats","Enterprise Used Seats","Growth+CRM Used Seats","Growth Used Seats","SMB Used Seats","Starter Used Seats","Free Used Seats","Account Long SFDC Id","Prospecting Notes","All Purchased Seats","6 Month Notes","Starter Purchased Seats","Growth Purchased Seats","Workspace ID","CRM","Email Provider","NAICS Code","Team"
+"Jack Wauson","417 Magazine","417mag.com","0.00","588.00","","","0","","","","","","","001VS000001pGqBYAU","","0","","","","","Salesforce","Gmail","51","Sales"
+"Morgan Wible","5X","5xdata.io","0.00","0.00","","","0","","","","","","","001Hq000037K8ozIAC","","0","","","","","Other","Gmail","54","Sales"
+"Morgan Wible","AH Capital Management, L.L.C.","a16z.com","84252.00","0.00","41","0","104","39","63","2","","","3","0013600001UXyUAAA1","a16z doesn't have traditional revops teams (the teams on Mixmax are Market Development, Technical Talent, Executive, Talent, Corporate Development (sales), Marketing, GTM) , but we know that a cohort of their users use Groove over Mixmax. Groove built a custom calendar dev to win some of their business a few years back, but we've been able to make inroads since then and expand user count YoY.
+
+Our main admin and DM, Jewel Pi, hasn't and won't tell us what the custom calendaring functionality is, and has explicitly stated she doesn't want us to build anything. That said, she admitted that most users prefer Mixmax over Groove, which is why they've expanded.
+
+I would love to replace Groove entirely, get everyone on Mixmax, and mitigate the potential for churn. It might be worth it to find contacts with buying power outside of Jewel. Werner is also a friendly.","41","","0","0","5b6ddb6d84a6d061e4a8d0c4","Salesforce","Gmail","52","Sales"
+"Jack Wauson","Ada","ada.cx","5719.20","0.00","14","0","10","10","","","","","6","0011R00002BDkg1QAD","","14","08/20/25 - Added to Sequence - https://app.mixmax.com/dashboard/sequences/v2/667c960d1c185bb86f383465","0","0","5dd056f164ca200f0e71a2f8","Other","Gmail","56","Sales"
+[... rest of CSV data ...]
