@@ -1,0 +1,36 @@
+# Claude Code SDK
+claude-code-sdk>=0.0.20
+
+# Environment management
+python-dotenv>=1.1.1
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API integrations (install as needed)
+# Clay API - clay-python (if available)
+# Apollo API - apollo-python (if available)
+# Email verification - zerobounce-python (if available)
+
+# HTTP requests
+requests>=2.31.0
+httpx>=0.24.0
+
+# Async support
+aiohttp>=3.8.0
+
+# Data validation
+pydantic>=2.0.0
+
+# CLI utilities
+rich>=13.0.0
+click>=8.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Jupyter (for notebooks)
+ipykernel>=6.29.5
+jupyter>=1.0.0
