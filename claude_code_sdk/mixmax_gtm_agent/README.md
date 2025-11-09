@@ -4,7 +4,7 @@ A complete multi-agent system for executing the Gutenberg Framework - a data-dri
 
 ## Overview
 
-This agent system automates and optimizes the complete outbound GTM workflow from prospect sourcing to scaled campaigns, using 6 specialized AI agents working in coordination.
+This agent system automates and optimizes the complete outbound GTM workflow from prospect sourcing to scaled campaigns, using 7 specialized AI agents working in coordination.
 
 ### The Gutenberg Framework
 
@@ -21,7 +21,7 @@ This agent system automates and optimizes the complete outbound GTM workflow fro
 - $75K-150K revenue
 - 5,000-10,000% ROI
 
-## The 6 Specialized Agents
+## The 7 Specialized Agents
 
 ### 1. **List Builder Specialist** (.claude/agents/list-builder.md)
 **Domain**: STEP 1 - Intent-Based List Building
@@ -138,6 +138,26 @@ This agent system automates and optimizes the complete outbound GTM workflow fro
 
 ---
 
+### 7. **Competitive Intelligence Specialist** (.claude/agents/competitive-intelligence.md)
+**Domain**: Cross-cutting - Market Intelligence & Competitive Monitoring
+
+**Responsibilities**:
+- Monitor 60+ competitors across social media, job postings, and product changes
+- Maintain competitive battlecards and positioning intelligence
+- Track market trends and competitor momentum
+- Win/loss analysis and strategic insights
+- Real-time alerts for critical competitive signals
+
+**Key Metrics**:
+- Signal capture rate: Daily monitoring of critical competitors
+- Battlecard freshness: 100% of high-priority cards updated monthly
+- Win/loss attribution: Competitive context on deals
+- Alert response time: <24 hours for high-priority signals
+
+**Tools**: Web scraping, social media monitoring, G2/review analysis, job board trackers
+
+---
+
 ## How the System Works
 
 ### Phase 1: Preparation (Week 0-1)
@@ -211,7 +231,8 @@ mixmax_gtm_agent/
 │   │   ├── offer-strategist.md    # Agent 3: Offer & message creation
 │   │   ├── campaign-orchestrator.md # Agent 4: Testing & winner ID
 │   │   ├── deliverability-engineer.md # Agent 5: Infrastructure & reputation
-│   │   └── analytics-optimizer.md # Agent 6: Scaling & optimization
+│   │   ├── analytics-optimizer.md # Agent 6: Scaling & optimization
+│   │   └── competitive-intelligence.md # Agent 7: Competitive monitoring & market intelligence
 │   │
 │   └── commands/                  # (Optional) Slash commands for common tasks
 │
@@ -233,6 +254,7 @@ mixmax_gtm_agent/
     ├── case_studies.json          # 43 Mixmax customer case studies
     ├── icp_intelligence.json      # ICP patterns and sweet spots
     ├── messaging_intelligence.json # Value props and pain points by segment
+    ├── competitors.json           # 60 direct/indirect competitors with monitoring priorities
     ├── raw_contacts.csv
     ├── verified_contacts.csv
     ├── test_results.csv
@@ -260,6 +282,8 @@ Offer Strategist ─────────────────────
 
 - **Campaign Orchestrator ↔ Deliverability Engineer**: Daily domain health sync
 - **Analytics Optimizer ↔ List Builder**: Weekly ICP refinement
+- **Competitive Intelligence ↔ Offer Strategist**: Real-time battlecard updates and positioning insights
+- **Competitive Intelligence ↔ All Agents**: Weekly market signals and strategic intelligence
 - **All agents ↔ GTM Orchestrator**: Emergency protocol coordination
 
 ## Decision-Making Authority
@@ -271,6 +295,7 @@ Each agent has **full autonomy** within their domain:
 - Campaign Orchestrator allocates contacts & identifies winners
 - Deliverability Engineer manages domains & reputation
 - Analytics Optimizer determines scaling allocation & tests
+- Competitive Intelligence identifies threats, maintains battlecards & provides market insights
 
 **GTM Orchestrator** (main agent) coordinates handoffs but does NOT override specialist decisions unless emergency protocol activated.
 

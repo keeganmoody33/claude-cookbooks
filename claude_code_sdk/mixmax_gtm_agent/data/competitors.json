@@ -1,0 +1,663 @@
+{
+  "metadata": {
+    "total_competitors": 60,
+    "active_competitors": 54,
+    "adjacent_partners": 18,
+    "last_updated": "2025-11-09",
+    "data_source": "Mixmax competitive analysis"
+  },
+  "competition_categories": {
+    "Direct Platform Competitors (SEP)": {
+      "count": 4,
+      "companies": ["Outreach", "Salesloft", "Gong", "InsideSales Playbooks (XANT)"]
+    },
+    "Direct In-Inbox Competitors": {
+      "count": 4,
+      "companies": ["Gmelius", "Groove (Clari)", "Streak", "Yesware"]
+    },
+    "Direct Convergent Competitors (Data + SEP)": {
+      "count": 8,
+      "companies": ["Apollo.io", "lemlist", "Mailshake", "Reply", "ZoomInfo Engage", "Snov.io", "SalesTarget.ai"]
+    },
+    "Direct Feature-Specific Competitors": {
+      "count": 22,
+      "companies": [
+        "Autoklose", "ClearSlide", "Koncert", "VanillaSoft", "FollowUp (FollowUp.cc)",
+        "Mailbutler", "Mailmeteor", "Mailtrack", "PersistIQ", "QuickMail",
+        "SmartReach", "Vocus.io", "Woodpecker", "YAMM", "Automatic Prospects",
+        "ClickReach", "Orangedox", "Upscale", "Vuepak", "Wavo", "Zixflow"
+      ]
+    },
+    "Indirect \"Good Enough\" Competitors (CRM/Marketing Suites)": {
+      "count": 10,
+      "companies": [
+        "ActiveCampaign", "Close / Close CRM", "eWay-CRM", "Freshsales",
+        "HubSpot Sales Hub", "Salesforce Engage", "Salesmate", "Apptivo",
+        "monday sales CRM", "Odoo", "Pipedrive"
+      ]
+    },
+    "Adjacent Tools / Integration Partners": {
+      "count": 12,
+      "companies": [
+        "HubSpot CRM", "Salesforce Sales Cloud", "ZoomInfo Sales", "AgencyBloc AMS+",
+        "Convoso", "Custify", "Demodesk", "HubSpot Customer Platform",
+        "InboxAlly", "Laxis", "LeadIQ", "Rocketlane", "Scribble Maps",
+        "SmartCloud Connect", "Visual Visitor"
+      ]
+    }
+  },
+  "competitors": [
+    {
+      "company_name": "ActiveCampaign",
+      "domain": "activecampaign.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (Marketing Automation Suite)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Apollo.io",
+      "domain": "apollo.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Autoklose",
+      "domain": "autoklose.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "ClearSlide",
+      "domain": "clearslide.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Sales Content)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Close / Close CRM",
+      "domain": "close.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "eWay-CRM",
+      "domain": "eway-crm.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Freshsales",
+      "domain": "freshworks.com/freshsales",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Gmelius",
+      "domain": "gmelius.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct In-Inbox Competitor",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Gong",
+      "domain": "gong.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Platform Competitor (SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Groove (Clari)",
+      "domain": "groove.co",
+      "is_active_competitor": true,
+      "competition_type": "Direct In-Inbox Competitor",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "HubSpot CRM",
+      "domain": "hubspot.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Platform)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "HubSpot Sales Hub",
+      "domain": "hubspot.com/products/sales",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "InsideSales Playbooks (XANT)",
+      "domain": "xant.ai",
+      "is_active_competitor": true,
+      "competition_type": "Direct Platform Competitor (SEP - Legacy)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Koncert",
+      "domain": "koncert.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Dialer-First SEP)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "lemlist",
+      "domain": "lemlist.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Mailshake",
+      "domain": "mailshake.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Outreach",
+      "domain": "outreach.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Platform Competitor (SEP)",
+      "threat_level": "critical",
+      "monitoring_priority": "critical"
+    },
+    {
+      "company_name": "Reply",
+      "domain": "reply.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Salesforce Sales Cloud",
+      "domain": "salesforce.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Platform)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Salesforce Engage",
+      "domain": "salesforce.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "Salesloft",
+      "domain": "salesloft.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Platform Competitor (SEP)",
+      "threat_level": "critical",
+      "monitoring_priority": "critical"
+    },
+    {
+      "company_name": "Salesmate",
+      "domain": "salesmate.io",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Streak",
+      "domain": "streak.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct In-Inbox Competitor",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "VanillaSoft",
+      "domain": "vanillasoft.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Dialer-First SEP)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Yesware",
+      "domain": "yesware.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct In-Inbox Competitor",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "ZoomInfo Engage",
+      "domain": "zoominfo.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "high",
+      "monitoring_priority": "high"
+    },
+    {
+      "company_name": "ZoomInfo Sales",
+      "domain": "zoominfo.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Data Provider)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "FollowUp (FollowUp.cc)",
+      "domain": "followup.cc",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Email Tracking)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Mailbutler",
+      "domain": "mailbutler.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Inbox Utility)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Mailmeteor",
+      "domain": "mailmeteor.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Mail Merge)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Mailtrack",
+      "domain": "mailtrack.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Email Tracking)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "PersistIQ",
+      "domain": "persistiq.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "QuickMail",
+      "domain": "quickmail.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "SmartReach",
+      "domain": "smartreach.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Snov.io",
+      "domain": "snov.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Vocus.io",
+      "domain": "vocus.io",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Inbox Utility)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Woodpecker",
+      "domain": "woodpecker.co",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "YAMM (Yet Another Mail Merge)",
+      "domain": "yamm.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Mail Merge)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "AgencyBloc AMS+",
+      "domain": "agencybloc.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Vertical CRM)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Apptivo",
+      "domain": "apptivo.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Automatic Prospects",
+      "domain": "automaticprospects.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "ClickReach",
+      "domain": "clickreach.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP - Likely Defunct)",
+      "threat_level": "none",
+      "monitoring_priority": "none"
+    },
+    {
+      "company_name": "Convoso",
+      "domain": "convoso.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Dialer)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Custify",
+      "domain": "custify.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Customer Success Platform)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Demodesk",
+      "domain": "demodesk.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Demo Tool)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "HubSpot Customer Platform",
+      "domain": "hubspot.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Platform)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "InboxAlly",
+      "domain": "inboxally.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Deliverability Tool)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Laxis",
+      "domain": "laxis.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (AI Notetaker)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "LeadIQ",
+      "domain": "leadiq.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Data Provider)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "monday sales CRM",
+      "domain": "monday.com/sales-crm",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Odoo",
+      "domain": "odoo.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Orangedox",
+      "domain": "orangedox.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Document Tracking)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Pipedrive",
+      "domain": "pipedrive.com",
+      "is_active_competitor": true,
+      "competition_type": "Indirect \"Good Enough\" Competitor (CRM Suite)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Rocketlane",
+      "domain": "rocketlane.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Onboarding Platform)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Scribble Maps",
+      "domain": "scribblemaps.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Mapping Tool)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "SmartCloud Connect",
+      "domain": "smartcloudconnect.io",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Connector/Middleware)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Upscale",
+      "domain": "upscale.ai",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Vuepak",
+      "domain": "vuepak.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Wavo",
+      "domain": "app.wavo.co",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP - White Label)",
+      "threat_level": "low",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "Zixflow",
+      "domain": "zixflow.com",
+      "is_active_competitor": true,
+      "competition_type": "Direct Feature-Specific Competitor (Niche SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    },
+    {
+      "company_name": "Visual Visitor",
+      "domain": "visualvisitor.com",
+      "is_active_competitor": false,
+      "competition_type": "Adjacent Tool / Integration Partner (Website Visitor ID)",
+      "threat_level": "none",
+      "monitoring_priority": "low"
+    },
+    {
+      "company_name": "SalesTarget.ai",
+      "domain": "salestarget.ai",
+      "is_active_competitor": true,
+      "competition_type": "Direct Convergent Competitor (Data + SEP)",
+      "threat_level": "medium",
+      "monitoring_priority": "medium"
+    }
+  ],
+  "monitoring_priorities": {
+    "critical": {
+      "count": 2,
+      "rationale": "Market leaders with comprehensive platforms that directly compete",
+      "companies": ["Outreach", "Salesloft"]
+    },
+    "high": {
+      "count": 12,
+      "rationale": "Direct competitors with significant market presence or similar positioning",
+      "companies": [
+        "Apollo.io", "Gmelius", "Gong", "Groove (Clari)", "HubSpot Sales Hub",
+        "lemlist", "Mailshake", "Reply", "Salesforce Engage", "Streak",
+        "Yesware", "ZoomInfo Engage"
+      ]
+    },
+    "medium": {
+      "count": 17,
+      "rationale": "Feature-specific or niche competitors, and indirect competitors with overlapping capabilities",
+      "companies": [
+        "ActiveCampaign", "Close / Close CRM", "Freshsales", "Mailmeteor",
+        "PersistIQ", "QuickMail", "SmartReach", "Snov.io", "Woodpecker",
+        "YAMM", "monday sales CRM", "Pipedrive", "Upscale", "Zixflow",
+        "SalesTarget.ai"
+      ]
+    },
+    "low": {
+      "count": 23,
+      "rationale": "Niche players, likely defunct competitors, or adjacent tool partners",
+      "companies": [
+        "Autoklose", "ClearSlide", "eWay-CRM", "HubSpot CRM", "InsideSales Playbooks (XANT)",
+        "Koncert", "Salesmate", "VanillaSoft", "FollowUp", "Mailbutler",
+        "Mailtrack", "Vocus.io", "AgencyBloc AMS+", "Apptivo", "Automatic Prospects",
+        "Convoso", "Custify", "Demodesk", "HubSpot Customer Platform", "InboxAlly",
+        "Laxis", "LeadIQ", "Odoo", "Orangedox", "Rocketlane", "Scribble Maps",
+        "SmartCloud Connect", "Vuepak", "Wavo", "Salesforce Sales Cloud",
+        "Visual Visitor", "ZoomInfo Sales"
+      ]
+    },
+    "none": {
+      "count": 1,
+      "rationale": "Defunct or inactive competitors",
+      "companies": ["ClickReach"]
+    }
+  },
+  "monitoring_signals": {
+    "social_media": {
+      "platforms": ["LinkedIn", "Twitter/X", "Facebook"],
+      "signal_types": [
+        "Product launches and feature announcements",
+        "Funding announcements",
+        "Executive changes and key hires",
+        "Customer wins and case studies",
+        "Thought leadership and content strategy",
+        "Event participation and sponsorships"
+      ]
+    },
+    "job_postings": {
+      "platforms": ["LinkedIn", "Greenhouse", "Lever", "Indeed"],
+      "signal_types": [
+        "Sales team expansion (market growth)",
+        "Engineering hiring (product development velocity)",
+        "Marketing roles (GTM expansion)",
+        "Executive roles (strategic shifts)",
+        "Geographic expansion (new offices)"
+      ]
+    },
+    "content_monitoring": {
+      "channels": ["Blogs", "Email newsletters", "Webinars", "Documentation updates"],
+      "signal_types": [
+        "Positioning shifts",
+        "New use cases and ICP targeting",
+        "Pricing changes",
+        "Integration announcements",
+        "Customer education focus"
+      ]
+    },
+    "product_changes": {
+      "sources": ["Product hunt", "G2 reviews", "Changelog pages", "Release notes"],
+      "signal_types": [
+        "Feature parity gaps closing",
+        "New differentiation points",
+        "UX improvements",
+        "Performance enhancements",
+        "Security/compliance additions"
+      ]
+    }
+  },
+  "competitive_battle_cards": {
+    "high_priority_competitors": {
+      "Outreach": {
+        "their_strength": "Enterprise sales engagement platform with extensive features",
+        "our_advantage": "Gmail-native simplicity, faster time-to-value, lower cost",
+        "win_themes": "Ease of use, speed of implementation, no change management"
+      },
+      "Salesloft": {
+        "their_strength": "Comprehensive SEP with strong analytics and coaching",
+        "our_advantage": "Lighter weight, better for small-to-mid-market, Gmail integration",
+        "win_themes": "Less complexity, faster adoption, integrated workflow"
+      },
+      "Apollo.io": {
+        "their_strength": "Data + SEP in one platform",
+        "our_advantage": "Superior email capabilities, better tracking, Gmail-native",
+        "win_themes": "Best-in-class email experience, proven templates, CRM integration"
+      },
+      "Streak": {
+        "their_strength": "Gmail-native CRM with pipeline management",
+        "our_advantage": "Purpose-built for outbound sales, sequences, templates",
+        "win_themes": "Sales engagement focus, automation, team collaboration"
+      },
+      "Yesware": {
+        "their_strength": "Simple email tracking and templates",
+        "our_advantage": "More advanced sequences, better analytics, team features",
+        "win_themes": "Scale beyond individual reps, team coordination, sequences"
+      }
+    }
+  }
+}
