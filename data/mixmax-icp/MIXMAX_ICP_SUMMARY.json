@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-11 09:37:12",
+    "total_customers": 280,
+    "total_arr": 4790381.11,
+    "data_source": "CURRENTCUSTOMERS_CLAYENRICHED.csv (cleaned and validated)"
+  },
+  "employee_band_distribution": {
+    "by_count": {
+      "51-200": 92,
+      "11-50": 74,
+      "201-500": 47,
+      "1001-5000": 23,
+      "501-1000": 17,
+      "1-10": 16,
+      "5000+": 11
+    },
+    "by_percentage": {
+      "51-200": 32.86,
+      "11-50": 26.43,
+      "201-500": 16.79,
+      "1001-5000": 8.21,
+      "501-1000": 6.07,
+      "1-10": 5.71,
+      "5000+": 3.93
+    }
+  },
+  "top_industries": {
+    "Software Development": 75,
+    "Technology, Information and Internet": 21,
+    "IT Services and IT Consulting": 16,
+    "Financial Services": 16,
+    "Advertising Services": 16,
+    "Real Estate": 8,
+    "Computer and Network Security": 6,
+    "Staffing and Recruiting": 6,
+    "E-Learning Providers": 6,
+    "Marketing Services": 5
+  },
+  "tech_stack_analysis": {
+    "salesforce": {
+      "count": 162,
+      "percentage": 57.86
+    },
+    "gmail_google_workspace": {
+      "count": 238,
+      "percentage": 85.0
+    },
+    "hubspot": {
+      "count": 119,
+      "percentage": 42.5
+    }
+  },
+  "founded_year_distribution": {
+    "2000s": 40,
+    "2010s": 146,
+    "2020s": 15,
+    "1970s": 2,
+    "1950s": 1,
+    "1980s": 4,
+    "1910s": 1,
+    "1990s": 18,
+    "1940s": 1,
+    "1900s": 1
+  },
+  "data_completeness": {
+    "Employee Count": {
+      "populated": 280,
+      "percentage": 100.0
+    },
+    "Size": {
+      "populated": 280,
+      "percentage": 100.0
+    },
+    "Founded": {
+      "populated": 229,
+      "percentage": 81.79
+    },
+    "Industry": {
+      "populated": 272,
+      "percentage": 97.14
+    },
+    "Total_ARR": {
+      "populated": 280,
+      "percentage": 100.0
+    }
+  },
+  "sweet_spot_icp_profile": {
+    "employee_range": {
+      "core": "51-200",
+      "extended": "11-200",
+      "description": "Primary target: 51-200 employees (32.5% of base)"
+    },
+    "founded_range": {
+      "optimal": "2010-2019",
+      "description": "Companies in scaling phase (founded 2010-2019)"
+    },
+    "tech_stack": {
+      "salesforce": {
+        "count": 162,
+        "percentage": 57.86
+      },
+      "gmail": {
+        "count": 238,
+        "percentage": 85.0
+      },
+      "hubspot": {
+        "count": 119,
+        "percentage": 42.5
+      }
+    },
+    "business_stage": {
+      "primary": "Growth Stage",
+      "secondary": "Established",
+      "description": "Companies in growth/scale phase"
+    }
+  }
+}
