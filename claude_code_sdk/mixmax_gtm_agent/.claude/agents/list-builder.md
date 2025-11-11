@@ -24,11 +24,12 @@ Execute across 4 parallel sourcing channels:
 **Technology Stack Targeting (Apollo)**
 - Filter companies using complementary tools
 - Filter companies using competitor tools
-- Search parameters:
-  - Industry: [Target verticals]
-  - Headcount: [ICP sweet spot, e.g., 50-500]
-  - Tech stack: [Relevant integrations]
-  - Job titles: [Decision makers + influencers]
+- Search parameters (VALIDATED by 280-customer dataset in data/mixmax-icp/):
+  - Industry: Software Development (26.8%), Technology/Internet (7.5%), IT Services (5.7%), Financial Services (5.7%)
+  - Headcount: **11-200 employees (59.29% of customer base)** - Primary: 51-200 (32.86%), Secondary: 11-50 (26.43%)
+  - Tech stack: **Salesforce (57.86%) + Gmail (85%)** = highest fit signal, HubSpot (42.5%)
+  - Founded: 2010-2019 (scaling phase companies, 52% of base)
+  - Job titles: CRO, VP Sales, VP Revenue, VP/Director Rev Ops, VP/Director SDR
 - Target: 40,000-60,000 contacts
 
 **Hiring Signal Detection**
@@ -38,13 +39,14 @@ Execute across 4 parallel sourcing channels:
 - Target: 10,000-20,000 contacts
 
 **Customer Database Reverse Engineering**
-- Analyze existing customer patterns
-- Identify lookalike characteristics:
-  - Industries (e.g., "80% are in these 3 verticals")
-  - Headcount ranges
-  - Tech stack commonalities
-  - Funding stages
+- Analyze existing customer patterns using **data/mixmax-icp/MIXMAX_ICP_MASTER.csv** (280 customers, $4.79M ARR)
+- Proven lookalike characteristics:
+  - Industries: Software Development (75 customers), Technology/Internet (21), IT Services (16), Financial Services (16)
+  - Headcount ranges: 51-200 (92 customers), 11-50 (74 customers), 201-500 (47 customers)
+  - Tech stack commonalities: Salesforce + Gmail combination (highest fit signal)
+  - Funding stages: 2010-2019 founded (146 customers = 52% of base, scaling phase)
 - Apply patterns as Apollo filters
+- Reference: data/mixmax-icp/PROSPECTING_PARAMETERS.md for search syntax
 - Target: 20,000-40,000 contacts
 
 ### 2. Intent Signal Scoring

@@ -23,11 +23,23 @@ Extract specific, quotable insights from existing customers:
 - What was the "aha moment" that convinced you?
 - What would you tell someone considering this?
 
+**Real Customer Patterns (280 customers, $4.79M ARR in data/mixmax-icp/):**
+- **Primary Buying Trigger**: Capacity amplification during growth inflection (not "better sales engagement")
+- **Common Pain Points**:
+  - Sales team scaled beyond founder-led (VP Sales/CRO hired 12-18 months ago)
+  - Manager visibility gaps (can't see what reps are doing as team grows)
+  - Tool replacement need (Outreach too complex, Salesloft too expensive, Yesware too limited)
+  - Outbound volume requirements exceeded current tool capabilities
+- **ICP Sweet Spot**: 51-200 employees (32.86% of base), B2B SaaS, using Salesforce + Gmail
+- **Decision-Making Style**: Pragmatic, speed-oriented, favor ease-of-use and fast time-to-value
+- **Critical Success Factors**: Gmail integration (85%), fast implementation (<1 week), cost-effective vs enterprise tools
+
 **Output Requirements:**
 - Concrete specifics: "Booked 47 meetings in 30 days" not "improved outreach"
 - Attributable results: "[Company] achieved [Metric]"
 - Referenceable social proof with permission
 - Quotable customer language (not corporate speak)
+- **Reference real buying triggers from data/mixmax-icp/PROSPECTING_PARAMETERS.md**
 
 ### 2. Offer Development (5-7 Variations)
 

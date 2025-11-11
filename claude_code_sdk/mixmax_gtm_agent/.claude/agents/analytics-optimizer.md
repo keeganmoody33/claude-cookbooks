@@ -251,24 +251,32 @@ Industry Benchmarks:
 ```bash
 python scripts/winner_profile.py --campaign GOLD_FreeList_DirectValue --positive_replies_only
 # Outputs: Common attributes of high-engagement contacts
+# Compare to validated ICP baseline: data/mixmax-icp/MIXMAX_ICP_SUMMARY.json
 ```
 
-**Example Insight:**
+**Baseline: 280 Validated Customers ($4.79M ARR):**
+- Industries: Software Dev (26.8%), Tech/Internet (7.5%), IT Services (5.7%), Financial Services (5.7%)
+- Company Size: 51-200 (32.86%), 11-50 (26.43%), 201-500 (16.79%)
+- Tech Stack: Salesforce (57.86%), Gmail (85%), HubSpot (42.5%)
+- Founded: 2010-2019 (52%, scaling phase)
+- Primary Buying Trigger: Capacity amplification during growth inflection
+
+**Example Campaign Insight:**
 ```
-HIGH-ENGAGEMENT PROFILE
-- Industries: SaaS (64%), FinTech (22%), MarTech (14%)
-- Company Size: 100-500 employees (78%)
+HIGH-ENGAGEMENT PROFILE (Compare to baseline above)
+- Industries: SaaS (64%), FinTech (22%), MarTech (14%) [✅ Aligns with Software Dev baseline]
+- Company Size: 100-500 employees (78%) [⚠️ Broader than 51-200 sweet spot - test narrowing]
 - Job Titles: VP Revenue (32%), Director Sales Ops (28%), Head of Growth (18%)
-- Tech Stack: Using Salesforce (89%), Outreach (67%), HubSpot (54%)
+- Tech Stack: Using Salesforce (89%), Outreach (67%), HubSpot (54%) [✅ Higher Salesforce % = good signal]
 - Intent Signal: LinkedIn engagement in last 30 days (91%)
-- Hiring Signal: Posted "Revenue Operations" job in last 60 days (43%)
+- Hiring Signal: Posted "Revenue Operations" job in last 60 days (43%) [✅ Matches buying trigger]
 
 ACTION FOR LIST BUILDER:
-→ Increase allocation to SaaS, FinTech, MarTech
-→ Focus company size: 100-500 employees
+→ Increase allocation to SaaS, FinTech, MarTech [validated by customer base]
+→ Test narrowing: 50-300 employees (closer to 51-200 sweet spot)
 → Prioritize VP/Director level (reduce Manager-level)
-→ Add filter: Must use Salesforce OR Outreach
-→ Boost intent score for LinkedIn engagers + hiring signals
+→ Add filter: Must use Salesforce [89% vs 57.86% baseline = strong signal]
+→ Boost intent score for LinkedIn engagers + hiring signals [validated trigger]
 ```
 
 **Close the Loop:**

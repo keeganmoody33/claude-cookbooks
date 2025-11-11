@@ -1,103 +1,214 @@
 {
-  "total_case_studies": 8,
+  "data_source": "280 paying customers from MIXMAX_ICP_MASTER.csv (data/mixmax-icp/)",
+  "generated_at": "2025-11-11 09:37:12",
+  "total_customers": 280,
+  "total_arr": 4790381.11,
+  "average_arr_per_customer": 17108.50,
+  "data_completeness": {
+    "employee_count": "100% (280/280)",
+    "employee_band": "100% (280/280)",
+    "founded_year": "81.79% (229/280)",
+    "industry": "97.14% (272/280)",
+    "arr": "100% (280/280)"
+  },
   "company_size_distribution": {
-    "11-50": 1,
-    "51-200": 3,
-    "201-500": 1,
-    "1001-5000": 3
+    "by_count": {
+      "51-200": 92,
+      "11-50": 74,
+      "201-500": 47,
+      "1001-5000": 23,
+      "501-1000": 17,
+      "1-10": 16,
+      "5000+": 11
+    },
+    "by_percentage": {
+      "51-200": 32.86,
+      "11-50": 26.43,
+      "201-500": 16.79,
+      "1001-5000": 8.21,
+      "501-1000": 6.07,
+      "1-10": 5.71,
+      "5000+": 3.93
+    }
   },
   "industry_distribution": {
-    "Data Infrastructure and Analytics": 1,
-    "Software Development": 5,
-    "Financial Services": 1,
-    "Technology": 1
+    "Software Development": 75,
+    "Technology, Information and Internet": 21,
+    "IT Services and IT Consulting": 16,
+    "Financial Services": 16,
+    "Advertising Services": 16,
+    "Real Estate": 8,
+    "Computer and Network Security": 6,
+    "Staffing and Recruiting": 6,
+    "E-Learning Providers": 6,
+    "Marketing Services": 5
+  },
+  "tech_stack_requirements": {
+    "salesforce": {
+      "customers": 162,
+      "percentage": 57.86,
+      "significance": "PRIMARY - Core CRM integration requirement"
+    },
+    "gmail_google_workspace": {
+      "customers": 238,
+      "percentage": 85.0,
+      "significance": "CRITICAL - Essential inbox integration"
+    },
+    "hubspot": {
+      "customers": 119,
+      "percentage": 42.5,
+      "significance": "COMMON - Alternative CRM/marketing platform"
+    },
+    "ideal_combination": "Salesforce + Gmail (highest fit signal)"
+  },
+  "founded_year_patterns": {
+    "optimal_range": "2010-2019",
+    "optimal_range_count": 146,
+    "description": "Companies in scaling phase, past startup stage but still growing",
+    "distribution": {
+      "2010s": 146,
+      "2000s": 40,
+      "2020s": 15,
+      "1990s": 18,
+      "1980s": 4,
+      "1970s": 2,
+      "1950s": 1,
+      "1940s": 1,
+      "1910s": 1,
+      "1900s": 1
+    }
   },
   "top_success_patterns": {
-    "High-volume outreach": 2,
-    "High compliance requirements (data privacy)": 1,
-    "Multi-segment audiences (Fortune 500, academia, startups)": 1,
-    "Template-driven standardization needed": 1,
-    "Small team requiring efficiency gains": 1,
-    "Growth-stage SaaS in competitive market": 1,
-    "Need to scale without adding headcount": 1,
-    "Automated sequences and visibility critical": 1,
-    "Fast time-to-first-response needed": 1,
-    "Fast implementation requirement (<1 week)": 1
-  },
-  "most_valued_features": {
-    "Templates": 7,
-    "CRM integration": 4,
-    "Sequences": 4,
-    "Tracking": 3,
-    "Gmail integration": 2,
-    "Automation": 2,
-    "Analytics": 2,
-    "Compliance workflows": 1,
-    "CRM tracking": 1,
-    "Salesforce integration": 1,
-    "Team sharing": 1,
-    "Coaching insights": 1,
-    "Team analytics": 1,
-    "Global collaboration": 1,
-    "Easy adoption": 1
+    "Capacity amplification during growth inflection": "PRIMARY buying trigger",
+    "Sales team scaled beyond founder-led (VP Sales/CRO hired 12-18 months ago)": "HIGH signal",
+    "Outbound volume requirements exceeded current tool capabilities": "HIGH signal",
+    "Multiple SDR job postings (hiring velocity)": "HIGH signal",
+    "Tool stack fragmentation (using multiple point solutions)": "MEDIUM signal",
+    "Recent Series A/B/C funding": "MEDIUM signal",
+    "Competitive displacement opportunity (Outreach, Salesloft, Yesware users)": "HIGH value"
   },
   "icp_sweet_spots": [
     {
-      "segment": "Growth-stage SaaS (51-500 employees)",
-      "count": 3,
+      "segment": "Primary Sweet Spot: 51-200 employees",
+      "count": 92,
+      "percentage": 32.86,
+      "average_arr": 12557.96,
+      "description": "B2B SaaS companies in scaling phase",
       "common_problems": [
-        "Lead follow-up latency",
-        "Team coordination challenges",
-        "Need to scale without adding headcount"
+        "Sales team scaled beyond founder-led sales",
+        "Outbound volume requirements growing rapidly",
+        "Need visibility as team grows (manager can't see rep activity)",
+        "Prior tool implementation failed or became too expensive"
       ],
       "value_props": [
-        "Fast implementation",
-        "Above-industry reply rates",
-        "Team-wide visibility",
-        "Reduced manual work"
+        "Fast implementation (<1 week)",
+        "Scales with team without adding headcount",
+        "Manager visibility into rep activities",
+        "Cost-effective vs enterprise alternatives"
+      ],
+      "buying_triggers": [
+        "VP Sales/CRO hired in last 12-18 months",
+        "Multiple SDR job postings",
+        "Series A/B funding recently closed",
+        "Using Salesforce + Gmail"
       ]
     },
     {
-      "segment": "Enterprise (1000+ employees)",
-      "count": 3,
+      "segment": "Secondary Target: 11-50 employees",
+      "count": 74,
+      "percentage": 26.43,
+      "average_arr": 6857.68,
+      "description": "Early-stage SaaS moving from founder-led to sales team",
       "common_problems": [
-        "Multi-team coordination complexity",
-        "Maintaining speed at scale",
-        "Brand consistency across teams"
+        "First sales hires need structure",
+        "Founder can't manually track all outreach",
+        "Need templates and standardization",
+        "Limited budget for complex tools"
       ],
       "value_props": [
-        "Enterprise-grade tracking",
-        "Global team collaboration",
-        "Standardized messaging",
-        "Real-time visibility"
+        "Easy adoption for small teams",
+        "Lightweight vs enterprise alternatives",
+        "Fast time-to-value",
+        "Gmail-native experience"
+      ],
+      "buying_triggers": [
+        "First VP Sales hire",
+        "First 3-5 SDR hires",
+        "Seed/Series A funding",
+        "Moving from manual outreach to systematic"
       ]
+    },
+    {
+      "segment": "Growth Opportunity: 201-500 employees",
+      "count": 47,
+      "percentage": 16.79,
+      "average_arr": 14923.49,
+      "description": "Mid-market companies with established sales teams",
+      "common_problems": [
+        "Multi-team coordination complexity",
+        "Existing tool too expensive or complex",
+        "Need better visibility across teams",
+        "Scaling challenges"
+      ],
+      "value_props": [
+        "Team-wide visibility and standardization",
+        "Cost-effective vs Outreach/Salesloft",
+        "Fast deployment across teams",
+        "Salesforce + Gmail integration"
+      ],
+      "buying_triggers": [
+        "Outreach/Salesloft cost concerns",
+        "Series B/C expansion",
+        "New CRO evaluating stack",
+        "RevOps optimization initiative"
+      ]
+    },
+    {
+      "segment": "Combined Target Range: 11-200 employees",
+      "count": 166,
+      "percentage": 59.29,
+      "total_arr": 1763000.0,
+      "description": "CORE ICP - Nearly 60% of customer base in this range"
     }
   ],
   "universal_mechanisms": [
-    "Standardize and track high-volume, multi-segment outreach with compliance guardrails",
-    "Reduce coordination latency in asynchronous outreach with standardized templates",
-    "Standardize high-volume outreach with shared visibility and rapid onboarding",
-    "Automate coordination while maintaining coaching and accountability visibility",
-    "Coordinate large teams with standardized messaging and real-time visibility",
-    "Scale personalized outreach across global teams with brand consistency",
-    "Reduce coordination latency with lightweight, integrated tooling",
-    "Standardize outreach with trackable workflows for data-driven iteration"
+    "Amplify lean sales team capacity during growth inflection points without adding headcount",
+    "Provide manager visibility into rep activities as team scales beyond founder-led",
+    "Standardize and track high-volume outreach with Gmail-native, fast-implementation approach",
+    "Reduce coordination latency with integrated tooling (Salesforce + Gmail)",
+    "Replace expensive enterprise tools (Outreach, Salesloft) with cost-effective alternative",
+    "Enable rapid onboarding for new hires with template-driven standardization",
+    "Track outreach performance with analytics for data-driven iteration",
+    "Maintain deliverability and compliance as volume scales"
   ],
   "key_insights": {
-    "primary_buyer_pain": "Coordination latency and visibility gaps in high-volume outreach",
-    "common_buying_triggers": [
-      "Team scaling without proportional headcount",
-      "Manual processes causing delays",
-      "Lack of visibility into outreach performance",
-      "Inconsistent messaging across team"
+    "primary_buyer_pain": "Capacity amplification during growth inflection - sales teams need to scale output without scaling headcount proportionally",
+    "real_customer_validated_buying_triggers": [
+      "VP Sales/CRO hired in last 12-18 months (new leader evaluating stack)",
+      "Multiple SDR job postings (hiring velocity = budget unlocked)",
+      "Outbound volume requirements exceeded current tool capabilities",
+      "Tool stack fragmentation (using multiple point solutions that need integration)",
+      "Manager visibility gaps (can't see what reps are doing as team scales)",
+      "Competitive tool dissatisfaction (Outreach complexity, Salesloft cost, Yesware limitations)",
+      "Recent funding round (Series A/B/C provides budget for sales tools)",
+      "First sales team hires (moving from founder-led to systematic outbound)"
     ],
-    "decision_making_style": "Pragmatic, speed-oriented, favor ease-of-use and fast time-to-value",
+    "decision_making_style": "Pragmatic, speed-oriented, favor ease-of-use and fast time-to-value over feature complexity",
     "critical_success_factors": [
-      "Gmail/CRM integration",
+      "Gmail integration (85% of customers use Gmail/Google Workspace)",
+      "Salesforce integration (57.86% use Salesforce)",
       "Fast implementation (<1 week typical)",
-      "Template-based standardization",
-      "Team-wide visibility and tracking"
-    ]
+      "Template-based standardization for team consistency",
+      "Team-wide visibility and tracking for managers",
+      "Cost-effective vs enterprise alternatives (Outreach, Salesloft)"
+    ],
+    "prospecting_signals": {
+      "tech_stack_fit": "Companies using Salesforce + Gmail (highest fit)",
+      "employee_band_priority": "51-200 employees (32.86% of base), 11-50 employees (26.43% of base)",
+      "industry_priority": "Software Development (26.8%), Technology/Internet (7.5%), IT Services (5.7%), Financial Services (5.7%)",
+      "founded_year_sweet_spot": "2010-2019 (scaling phase companies)",
+      "displacement_targets": "Outreach, Salesloft, Groove, Yesware users showing dissatisfaction"
+    }
   },
   "target_decision_maker_roles": {
     "tier_1_primary_decision_makers": [

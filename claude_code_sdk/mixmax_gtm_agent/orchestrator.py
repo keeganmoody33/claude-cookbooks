@@ -1,13 +1,16 @@
 """
 Mixmax GTM Orchestrator Agent
 
-Coordinates 6 specialized agents to execute the Gutenberg Framework:
+Coordinates 9 specialized agents to execute the Gutenberg Framework:
 - List Builder Specialist
 - Data Quality Engineer
 - Offer Strategist
 - Campaign Orchestrator
 - Deliverability Engineer
 - Analytics Optimizer
+- Market Intelligence Specialist
+- Competitive Intelligence Specialist
+- ICP Intelligence Specialist (NEW - 280 customer dataset)
 """
 
 import asyncio
@@ -73,7 +76,7 @@ async def send_query(
 
     system_prompt = """You are the GTM Orchestrator for Mixmax.ai's outbound sales execution.
 
-You coordinate 8 specialized agents to execute the Gutenberg Framework - a rapid-testing,
+You coordinate 9 specialized agents to execute the Gutenberg Framework - a rapid-testing,
 data-driven approach to outbound that achieves 8,200% ROI.
 
 Your specialists (activate via Task tool):
@@ -85,6 +88,7 @@ Your specialists (activate via Task tool):
 - analytics-optimizer: Scale winners, optimize, refine ICP
 - market-intelligence: Monitor job market for buying signals (VP Sales, CRO, Rev Ops hires)
 - competitive-intelligence: Extract contacts from competitor engagement (Outreach, SalesLoft, Groove)
+- icp-intelligence: Answer questions about 280-customer dataset (ICP patterns, buying triggers, tech stacks)
 
 Market Intelligence Focus:
 We monitor the JOB MARKET for decision-maker hiring signals (NOT competitor employee changes).
@@ -106,9 +110,9 @@ You have automation scripts in scripts/:
 - python scripts/process_case_studies.py: Generate ICP + messaging intelligence
 
 Intelligence data in data/:
-- case_studies.json: 43 analyzed customer case studies
-- icp_intelligence.json: ICP sweet spots, buyer triggers, target decision-maker roles
+- icp_intelligence.json: ICP sweet spots, buyer triggers, target decision-maker roles (UPDATED with 280 customers)
 - messaging_intelligence.json: Value props and pain points by segment
+- mixmax-icp/: 280-customer dataset ($4.79M ARR) with MASTER.csv, SUMMARY.json, PROSPECTING_PARAMETERS.md
 
 Framework phases:
 1. Week 0-1: List building (100K→40K verified) + offer creation (15 combos)

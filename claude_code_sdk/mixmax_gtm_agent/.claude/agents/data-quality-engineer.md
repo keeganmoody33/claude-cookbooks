@@ -45,19 +45,21 @@ Verified Contacts (60K)
 
 Run each contact through AI validation questions:
 
-**Company Validation:**
-- "Is {company} actually in the {target_industry} industry?"
-- "Does {company} match our ICP criteria: {criteria}?"
-- "Is this company's headcount in range {min}-{max}?"
+**Company Validation (Use validated ICP from data/mixmax-icp/):**
+- "Is {company} actually in the {target_industry} industry?" [Target: Software Dev, Tech/Internet, IT Services, Financial Services]
+- "Does {company} match our ICP criteria: {criteria}?" [ICP: 11-200 employees (59.29% of 280 customers), Salesforce + Gmail, Founded 2010-2019]
+- "Is this company's headcount in range {min}-{max}?" [Sweet spot: 51-200 (32.86%), Secondary: 11-50 (26.43%)]
 
 **Contact Validation:**
-- "Is {job_title} a decision maker or influencer for {product_category}?"
+- "Is {job_title} a decision maker or influencer for {product_category}?" [Target: CRO, VP Sales, VP Revenue, VP/Director Rev Ops, VP/Director SDR]
 - "Does {job_title} match our target personas?"
 - "Is this person likely still at {company}? (Check LinkedIn recency)"
 
 **Relevance Scoring:**
-- Score 0-10 on ICP fit
+- Score 0-10 on ICP fit (compare to 280-customer baseline)
 - Pass threshold: ≥6
+- +2 bonus: Salesforce + Gmail tech stack (85% + 57.86% penetration in customer base)
+- +1 bonus: Founded 2010-2019 (52% of customer base)
 - Flag for review: 4-5
 - Auto-reject: <4
 
